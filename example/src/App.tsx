@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react'
-import RNModuleTemplateModule, { Counter } from 'react-native-module-template'
+import RNChangsModule, { Counter } from 'react-native-john-sid'
 
 const App = () => {
   useEffect(() => {
-    console.log(RNModuleTemplateModule)
+    console.log(RNChangsModule)
   })
 
-  return <Counter />
+  return <Counter label={"Greetings"}/>
 }
 
 export default App
